@@ -1,0 +1,15 @@
+<html>
+
+  <head><title>Dashboard??!</title></head>
+  <body>
+    Hello Dashboard World!
+    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+    <div id="main">
+      <div class="ticketview">
+        <% @tickets.each do |ticket| %>
+          <%= render partial: "ticket", locals: {ticket: ticket} %>
+        <% end %>
+      </div>
+    </div>
+  </body>
+</html>

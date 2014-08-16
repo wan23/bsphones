@@ -1,0 +1,6 @@
+<div class="ticket">
+  TICKET <%= ticket.id %>!!!
+  <% ticket.calls.each do |call| %>
+    <%= render partial: "call", locals: {call: call} %>
+  <% end %>
+</div>

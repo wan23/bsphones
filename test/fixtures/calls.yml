@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  from_number: MyString
+  to_number: MyString
+  caller_id: MyString
+  duration: 1
+  recording_url: MyString
+
+two:
+  from_number: MyString
+  to_number: MyString
+  caller_id: MyString
+  duration: 1
+  recording_url: MyString
