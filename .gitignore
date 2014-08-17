@@ -1,6 +1,7 @@
 *.gem
 *.rbc
 *.sqlite
+*.swp
 /.config
 /coverage/
 /InstalledFiles
@@ -9,6 +10,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/log/
 
 ## Specific to RubyMotion:
 .dat*
